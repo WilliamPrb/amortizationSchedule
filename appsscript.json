@@ -1,0 +1,29 @@
+{
+  "timeZone": "America/New_York",
+  "dependencies": {
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "sheets": {
+    "macros": [{
+      "menuName": "CopyRow",
+      "functionName": "CopyRow"
+    }, {
+      "menuName": "Misto",
+      "functionName": "Misto"
+    }, {
+      "menuName": "Misto1",
+      "functionName": "Misto1"
+    }, {
+      "menuName": "TablePrice",
+      "functionName": "TablePrice"
+    }, {
+      "menuName": "TableSAC",
+      "functionName": "TableSAC"
+    }]
+  }
+}
